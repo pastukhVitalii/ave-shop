@@ -1,0 +1,201 @@
+
+.item-view {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #8c8c8c;
+    font-size: 15px;
+}
+
+.item-img {
+    width: 50%;
+    display: flex;
+    flex-basis: 600px;
+    justify-content: center;
+}
+
+/* .item-img img {
+    max-width: 600px;
+} */
+
+.item-description {
+    width: 50%;
+}
+
+.feedback-panel {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    font-weight: 500;
+}
+
+.raiting-stars {
+    color: #dfdfde;
+}
+
+.checked {
+    color: #ded3aa;
+}
+
+.reviews {
+    padding: 0 10px;
+}
+
+.add-review {
+    padding: 0 10px;
+    border-left: 1px solid #8c8c8c;
+    border-right: 1px solid #8c8c8c;
+    color: #00c8c8;
+}
+
+.share {
+    padding: 0 10px;
+}
+
+.share i {
+    padding: 0 10px;
+}
+
+.item-price {
+    font-size: 30px;
+    padding-top: 30px;
+}
+.old-price {
+    text-decoration: line-through;
+    padding-right: 25px;
+}
+
+bold {
+    font-weight: 700;
+}
+
+.availability, .prod-code, .tags {
+    line-height: 30px;
+}
+
+.tags {
+    color: #00c8c8;
+}
+
+.item-description ul {
+    padding: 0;
+    margin-left: 20px; 
+}
+
+.item-description li {
+    list-style: initial;
+    padding: 0;
+    margin: 0; 
+}
+
+.choice-item {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.colour {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100px;
+    text-transform: uppercase;
+}
+
+.size {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100px;
+    text-transform: uppercase;
+    padding: 0 30px;
+}
+
+.quantity {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 70px;
+    text-transform: uppercase;
+}
+
+.colour select {
+    width: 170px;
+    height: 35px;
+    border: 1px solid #8c8c8c;
+    margin: 15px 0;
+}
+
+.size select {
+    width: 170px;
+    height: 35px;
+    border: 1px solid #8c8c8c;
+    margin: 15px 0;
+}
+
+.quantity input {
+    width: 70px;
+    height: 35px;
+    border: 1px solid #8c8c8c;
+    margin: 15px 0;
+}
+
+.btn-cart button {
+    width: 250px;
+    height: 60px;
+    background-color: #333333;
+    color: #dddddd;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    border: none;
+}
+.btn-cart i {
+    padding-right: 10px;
+}
+
+.text-description-clothes {
+    max-width: 1180px;
+}
+
+
+/* RESPONSIVE */
+
+@media (min-width: 2000px) {
+    .text-description-clothes {
+        max-width: 1510px!important;
+    }
+}
+
+@media (max-width: 767px) {
+    .feedback-panel div {
+        margin: 10px 0;
+    }
+
+    .share {
+        padding: 0;
+    }
+
+    .choice-item {
+        flex-direction: column;
+    }
+
+    .colour {
+        max-width: 100px;
+    }
+
+    .size {
+        max-width: 100px;
+        padding: 0;
+    }
+
+    .quantity {
+        max-width: 90px;
+    }
+}
+
+
+
+
+
+

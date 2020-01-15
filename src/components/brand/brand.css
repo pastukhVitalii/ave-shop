@@ -1,0 +1,140 @@
+.brand {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.intro {
+    color: #ffffff;
+    font-size: 48px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    background-image: url('../../img/background.png');
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.titleDescription {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.content {
+    max-width: 1180px;
+    height: auto;
+    margin: 60px auto;
+}
+.content img {
+    margin-right: 15px;
+}
+
+.BrandBlock1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.brandDesc {
+    max-height: 400px;
+    max-width: 570px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.brandDesc h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.brandDesc h3 {
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.brandDesc p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.brandBlock4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.brandBlock2 {
+    margin-bottom: 40px;
+}
+
+.awards {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* RESPONSIVE */
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    .BrandBlock1 {
+        justify-content: center;
+    }
+    
+    .brandBlock4 {
+        justify-content: center;
+    }
+
+    .content img {
+        margin-right: 0;
+    }
+
+    .brandDesc {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .BrandBlock1 {
+        justify-content: center;
+    }
+    
+    .brandBlock4 {
+        justify-content: center;
+    }
+
+    .content img {
+        margin-right: 0;
+    }
+
+    .brandDesc {
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .titleDescription {
+        font-size: 25px;
+    }
+
+    .content img {
+        margin-right: 0;
+    }
+
+    .brandDesc {
+        margin-left: 0;
+    }
+}

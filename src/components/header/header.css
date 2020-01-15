@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+header {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    z-index: 1;
+}
+
+.topHeader {
+    background-color: #333333;
+    color: #858585;
+    height: 45px;
+    font-size: 12px;
+}
+
+.header-section-inner {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+select {
+    background: none;
+    color: #858585;
+    border: none;
+}
+
+select option {
+    background: none;
+    color: #858585;
+    border: none;
+}
+
+.userBlock {
+    display: flex;
+    align-items: center;
+}
+
+.userBlock div:nth-child(even) {
+    padding: 0 30px ;
+    color: #00c8c8;
+}
+
+.cart {
+    color: #ffffff;
+    background-color: #00c8c8;
+    padding: 15.5px 0;
+    width: 150px;
+    text-align: center;
+}
+
+.cart i {
+    padding-right: 20px;
+}
+
+.userBlock i:last-child {
+    padding: 0;
+}
+
+.bottomHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 112px;
+    z-index: 3;
+}
+
+.Logo {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.Logo span {
+    font-weight: normal;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+header ul li {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+header ul li:first-child {
+    padding-left: 0;
+}
+
+.search {
+    max-width: 120px;
+    height: 20px;
+}    
+
+
+
+
+
+/* RESPONSIVE */
+
+@media (min-width: 1200px) {
+   .search {
+        margin-left: 40px;
+   }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    .search {
+        margin-left: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .search {
+        margin-left: 30px;
+    }
+}
+@media (max-width: 767px) {
+
+    .Logo {
+        margin-top: 8px;
+    }
+    header ul {
+        padding: 10px;
+        padding-bottom: 10px;
+    }
+    nav {
+        display: block;
+    }
+    header ul li {
+        padding: 0 15px;
+        font-size: 12px;
+    }
+    header ul li:last-child {
+        padding-right: 0 ;
+    }
+    .search {
+        margin-left: 10px;
+    }
+}
